@@ -1,0 +1,106 @@
+h1 {
+    font-size: 2.3em;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+select {
+    background-color: rgb(214, 209, 209);
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+button {
+    background-color: rgb(214, 209, 209);
+    height: 30px;
+    width: 60px;
+    border: 2px solid rgb(184, 175, 175);
+    border-radius: 5px;
+
+}
+
+#areaDoGrafico {
+    display: flex;
+    padding-top: 35px;
+}
+
+.cidades {
+    width: 25%;
+    font-size: 1em;
+}
+
+.nomeCidades > div {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.graphic {
+    display: flex;
+    width: 75%;
+}
+
+.escalas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    height: 150px;
+    /* padding-bottom: 17px; */
+}
+
+.escala {
+    /* width: 30px; */
+    padding-bottom: 10px;
+    /* height: 20px; */
+}
+
+.separador {
+    /* background-color: black; */
+    margin: 8% 0;
+}
+
+.plot {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-self: flex-end;
+}
+
+.column {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column-reverse;
+    align-self: flex-end;
+    border-right: 0.5px solid #bebebe;
+    height: 150px;
+    padding: 5px;
+}
+
+.column:hover {
+    border: 1px solid #bebebe;
+}
+
+.column > p {
+    display: flex;
+    align-self: flex-end;
+}
+
+.years {
+    width: 100%;
+    /* height: 100%; */
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.year {
+    width: 100%;
+    max-width: 100%;
+}
